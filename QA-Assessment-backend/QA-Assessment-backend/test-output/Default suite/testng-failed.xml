@@ -6,7 +6,14 @@
       <class name="com.solera.training.test.testData">
         <methods>
           <include name="users"/>
+          <include name="checkUserDetails_Lname"/>
+          <include name="testLoginFunc_CapCase_Username"/>
+          <include name="testLoginFunc_CapCase_passwor"/>
+          <include name="checkUserDetails_Fname"/>
           <include name="checkList"/>
+          <include name="testLoginFunc_Mix"/>
+          <include name="checkUserDetails_Username"/>
+          <include name="testLoginFunc"/>
         </methods>
       </class> <!-- com.solera.training.test.testData -->
     </classes>

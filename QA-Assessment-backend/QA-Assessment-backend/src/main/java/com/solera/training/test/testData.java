@@ -10,11 +10,11 @@ import java.util.List;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.solera.training.QAAssessmentbackend.Data;
-import com.solera.training.QAAssessmentbackend.User;
+import com.solera.training.QAAssessmentbackend.entity.User;
+import com.solera.training.QAAssessmentbackend.services.UserData;
 
 public class testData {
-	Data data = new Data();
+	UserData data = new UserData();
 	List<User> testUserList = new ArrayList();
 
 	@BeforeMethod

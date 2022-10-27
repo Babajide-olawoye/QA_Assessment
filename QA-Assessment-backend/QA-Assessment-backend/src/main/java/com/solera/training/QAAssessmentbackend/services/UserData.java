@@ -1,4 +1,4 @@
-package com.solera.training.QAAssessmentbackend;
+package com.solera.training.QAAssessmentbackend.services;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -15,20 +15,21 @@ import org.json.JSONArray;
 import org.testng.annotations.DataProvider;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.solera.training.QAAssessmentbackend.entity.User;
 
 @Component
-public class Data {
+public class UserData {
 	private static List<User> users = new ArrayList<>();
 
-	static {
+	public UserData() {
 		setUserObj();
 	}
 	
 
 	private static void setUserObj() {
-		User user1 = new User("James", "Franklin", "J_Frank", "Frank.2022");
-		User user2 = new User("Henry", "Horrid", "HH_Beast", "Horrid2022");
-		User user3 = new User("King", "Kong", "DonkeyKong_4lif", "Password");
+		User user1 = new User("James", "Franklin", "J_Frank", "Frank.2022", AccsData.getAccList().get(0));
+		User user2 = new User("Henry", "Horrid", "HH_Beast", "Horrid2022", AccsData.getAccList().get(1));
+		User user3 = new User("King", "Kong", "DonkeyKong_4lif", "Password", AccsData.getAccList().get(2));
 
 		users.add(user1);
 		users.add(user3);
@@ -42,7 +43,7 @@ public class Data {
 	public User getUser(String userName, String pWord) {
 
 		for (User user : users) {
-			if(user.getUserName().equalsIgnoreCase(userName) && user.loginFunc(userName, pWord)) {
+			if(user.getUserName().equalsIgnoreCase(userName)) {
 				return user;
 			}
 		}
@@ -50,7 +51,7 @@ public class Data {
 		
 	}
 	
-	
+}	
 	
 //	
 //	//Returns User data in json format
@@ -103,4 +104,3 @@ public class Data {
 
 //	}
 
-}
