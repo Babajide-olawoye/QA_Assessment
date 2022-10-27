@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-26T16:39:29 WEST" name="Default suite" finished-at="2022-10-26T16:39:29 WEST" duration-ms="73">
+    <groups>
+    </groups>
+    <test started-at="2022-10-26T16:39:29 WEST" name="Default test" finished-at="2022-10-26T16:39:29 WEST" duration-ms="73">
+      <class name="com.solera.training.test.testData">
+        <test-method is-config="true" signature="users()[pri:0, instance:com.solera.training.test.testData@71238fc2]" started-at="2022-10-26T16:39:29 WEST" name="users" finished-at="2022-10-26T16:39:29 WEST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- users -->
+        <test-method signature="checkList()[pri:0, instance:com.solera.training.test.testData@71238fc2]" started-at="2022-10-26T16:39:29 WEST" name="checkList" finished-at="2022-10-26T16:39:29 WEST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkList -->
+        <test-method signature="checkUserDetails_Fname()[pri:0, instance:com.solera.training.test.testData@71238fc2]" started-at="2022-10-26T16:39:29 WEST" name="checkUserDetails_Fname" finished-at="2022-10-26T16:39:29 WEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUserDetails_Fname -->
+        <test-method is-config="true" signature="users()[pri:0, instance:com.solera.training.test.testData@71238fc2]" started-at="2022-10-26T16:39:29 WEST" name="users" finished-at="2022-10-26T16:39:29 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- users -->
+        <test-method signature="checkUserDetails_Lname()[pri:0, instance:com.solera.training.test.testData@71238fc2]" started-at="2022-10-26T16:39:29 WEST" name="checkUserDetails_Lname" finished-at="2022-10-26T16:39:29 WEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUserDetails_Lname -->
+        <test-method is-config="true" signature="users()[pri:0, instance:com.solera.training.test.testData@71238fc2]" started-at="2022-10-26T16:39:29 WEST" name="users" finished-at="2022-10-26T16:39:29 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- users -->
+        <test-method signature="checkUserDetails_Username()[pri:0, instance:com.solera.training.test.testData@71238fc2]" started-at="2022-10-26T16:39:29 WEST" name="checkUserDetails_Username" finished-at="2022-10-26T16:39:29 WEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUserDetails_Username -->
+        <test-method is-config="true" signature="users()[pri:0, instance:com.solera.training.test.testData@71238fc2]" started-at="2022-10-26T16:39:29 WEST" name="users" finished-at="2022-10-26T16:39:29 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- users -->
+        <test-method is-config="true" signature="users()[pri:0, instance:com.solera.training.test.testData@71238fc2]" started-at="2022-10-26T16:39:29 WEST" name="users" finished-at="2022-10-26T16:39:29 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- users -->
+        <test-method signature="testLoginFunc()[pri:0, instance:com.solera.training.test.testData@71238fc2]" started-at="2022-10-26T16:39:29 WEST" name="testLoginFunc" finished-at="2022-10-26T16:39:29 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFunc -->
+        <test-method is-config="true" signature="users()[pri:0, instance:com.solera.training.test.testData@71238fc2]" started-at="2022-10-26T16:39:29 WEST" name="users" finished-at="2022-10-26T16:39:29 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- users -->
+        <test-method signature="testLoginFunc_CapCase_Username()[pri:0, instance:com.solera.training.test.testData@71238fc2]" started-at="2022-10-26T16:39:29 WEST" name="testLoginFunc_CapCase_Username" finished-at="2022-10-26T16:39:29 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFunc_CapCase_Username -->
+        <test-method is-config="true" signature="users()[pri:0, instance:com.solera.training.test.testData@71238fc2]" started-at="2022-10-26T16:39:29 WEST" name="users" finished-at="2022-10-26T16:39:29 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- users -->
+        <test-method signature="testLoginFunc_CapCase_passwor()[pri:0, instance:com.solera.training.test.testData@71238fc2]" started-at="2022-10-26T16:39:29 WEST" name="testLoginFunc_CapCase_passwor" finished-at="2022-10-26T16:39:29 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFunc_CapCase_passwor -->
+        <test-method signature="testLoginFunc_Mix()[pri:0, instance:com.solera.training.test.testData@71238fc2]" started-at="2022-10-26T16:39:29 WEST" name="testLoginFunc_Mix" finished-at="2022-10-26T16:39:29 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFunc_Mix -->
+        <test-method is-config="true" signature="users()[pri:0, instance:com.solera.training.test.testData@71238fc2]" started-at="2022-10-26T16:39:29 WEST" name="users" finished-at="2022-10-26T16:39:29 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- users -->
+      </class> <!-- com.solera.training.test.testData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
