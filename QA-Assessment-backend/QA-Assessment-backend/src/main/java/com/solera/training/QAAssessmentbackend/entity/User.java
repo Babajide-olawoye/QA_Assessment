@@ -1,16 +1,18 @@
-package com.solera.training.QAAssessmentbackend;
+package com.solera.training.QAAssessmentbackend.entity;
 
 public class User {
 	private String fName;
 	private String lName;
 	private String userName;
 	private String pword;
-	public User(String fName, String lName, String userName, String pword) {
+	private Account acc;
+	public User(String fName, String lName, String userName, String pword, Account acc) {
 		super();
 		this.fName = fName;
 		this.lName = lName;
 		this.userName = userName;
 		this.pword = pword;
+		this.acc = acc;
 	}
 	public String getfName() {
 		return fName;
@@ -37,6 +39,12 @@ public class User {
 		this.pword = pword;
 	}
 	
+	public Account getAcc() {
+		return acc;
+	}
+	private void setAcc(Account acc) {
+		this.acc = acc;
+	}
 	
 	//Login func
 	
