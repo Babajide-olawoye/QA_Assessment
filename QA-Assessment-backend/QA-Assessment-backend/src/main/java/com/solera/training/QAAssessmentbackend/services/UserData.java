@@ -37,6 +37,7 @@ public class UserData {
 	}
 	
 	public List<User> getUsers() {
+		AccsData.getAccList();
 		return users;
 	}
 	

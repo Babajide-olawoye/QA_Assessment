@@ -18,9 +18,9 @@ public class AccsData {
 	
 	//Create static List of users
 	private static void setAccObj() {
-		Account acc1 = new Account(generateID(), 200);
-		Account acc2 = new Account(generateID(), 928);
-		Account acc3 = new Account(generateID(), 278);
+		Account acc1 = new Account(333, 200);
+		Account acc2 = new Account(444, 928);
+		Account acc3 = new Account(555, 278);
 		
 		accList.add(acc1);
 		accList.add(acc2);
@@ -38,5 +38,11 @@ public class AccsData {
 		Random randomNum = new Random();
 		int id = 100 + randomNum.nextInt(9999);
 		return id;
+	}
+	
+	public static void main(String[] args) {
+		AccsData data = new AccsData();
+		
+		
 	}
 }

@@ -17,6 +17,7 @@ import com.solera.training.QAAssessmentbackend.services.UserData;
 public class UserControls {
 	private UserData data;
 	
+	
 	public UserControls(UserData data) {
 		this.data = data;
 	}

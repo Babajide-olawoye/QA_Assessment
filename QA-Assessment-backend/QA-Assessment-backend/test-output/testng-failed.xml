@@ -3,19 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.solera.training.test.testData">
+      <class name="com.solera.training.test.testAccountRepo">
         <methods>
-          <include name="users"/>
-          <include name="checkUserDetails_Lname"/>
-          <include name="testLoginFunc_CapCase_Username"/>
-          <include name="testLoginFunc_CapCase_passwor"/>
-          <include name="checkUserDetails_Fname"/>
-          <include name="checkList"/>
-          <include name="testLoginFunc_Mix"/>
-          <include name="checkUserDetails_Username"/>
-          <include name="testLoginFunc"/>
+          <include name="testGetAcc_ID"/>
+          <include name="setupTest"/>
         </methods>
-      </class> <!-- com.solera.training.test.testData -->
+      </class> <!-- com.solera.training.test.testAccountRepo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
